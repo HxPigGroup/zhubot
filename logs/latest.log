@@ -1,0 +1,217 @@
+[92m2022-08-15 15:53:00 I/main: Starting mirai-console...[0m[m
+[92m2022-08-15 15:53:00 I/main: Backend: version 2.12.0, built on 2022-07-03 10:57:58.[0m[m
+[92m2022-08-15 15:53:00 I/main: Frontend Terminal: version 2.12.0, provided by Mamoe Technologies[0m[m
+[92m2022-08-15 15:53:00 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-08-15 15:53:00 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-08-15 15:53:00 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-08-15 15:53:00 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-08-15 15:53:01 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.5.2[0m[m
+[92m2022-08-15 15:53:01 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-08-15 15:53:01 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-08-15 15:53:02 I/Mirai HTTP API: ********************************************************[0m[m
+[91m2022-08-15 15:53:02 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-08-15 15:53:02 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-08-15 15:53:02 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-08-15 15:53:02 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-08-15 15:53:02 I/Mirai HTTP API: Http api server is running with verifyKey: yirimirai[0m[m
+[92m2022-08-15 15:53:02 I/Mirai HTTP API: adaptors: [ws][0m[m
+[92m2022-08-15 15:53:02 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-08-15 15:53:02 I/MCL Addon: iTXTech MCL Version: 2.1.0-71ec418[0m[m
+[91m2022-08-15 15:53:02 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-08-15 15:53:02 I/main: 2 plugin(s) enabled.[0m[m
+[92m2022-08-15 15:53:02 I/main: mirai-console started successfully.[0m[m
+[92m2022-08-15 15:54:56 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-08-15 15:54:56 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-08-15 15:54:56 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[31m2022-08-15 15:54:57 E/Bot.3510871411: Failed to load account secrets from local cache. Invalidating cache...
+net.mamoe.mirai.internal.utils.crypto.DecryptionFailedException
+	at net.mamoe.mirai.internal.utils.crypto.TEA.fail(TEA.kt:298)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption$decrypt(TEA.kt:274)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.doOption(TEA.kt:294)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt(TEA.kt:318)
+	at net.mamoe.mirai.internal.utils.crypto.TEA.decrypt$default(TEA.kt:317)
+	at net.mamoe.mirai.internal.network.components.FileCacheAccountSecretsManager.getSecretsImpl(AccountSecretsManager.kt:198)
+	at net.mamoe.mirai.internal.network.components.FileCacheAccountSecretsManager.getSecrets(AccountSecretsManager.kt:192)
+	at net.mamoe.mirai.internal.network.components.CombinedAccountSecretsManager.getSecrets(AccountSecretsManager.kt:240)
+	at net.mamoe.mirai.internal.network.components.AccountSecretsManagerKt.getSecretsOrCreate(AccountSecretsManager.kt:152)
+	at net.mamoe.mirai.internal.network.components.BotClientHolderImpl.createClient(BotClientHolder.kt:36)
+	at net.mamoe.mirai.internal.network.components.BotClientHolderImpl.access$createClient(BotClientHolder.kt:24)
+	at net.mamoe.mirai.internal.network.components.BotClientHolderImpl$client$2.invoke(BotClientHolder.kt:28)
+	at net.mamoe.mirai.internal.network.components.BotClientHolderImpl$client$2.invoke(BotClientHolder.kt:28)
+	at net.mamoe.mirai.utils.LateinitMutableProperty.getValue(LateinitMutableProperty.kt:38)
+	at net.mamoe.mirai.internal.network.components.BotClientHolderImpl.getClient(BotClientHolder.kt:28)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.getClient(SsoProcessor.kt:107)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:122)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateConnecting$startState$2.invokeSuspend(NettyNetworkHandler.kt:273)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-08-15 15:55:26 I/Bot.3510871411: Bot cancelled: Bot closed[0m[m
+[31m2022-08-15 15:55:26 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3510871411), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3510871411), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: java.util.concurrent.CancellationException: Bot closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:112)
+		at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:84)
+		at net.mamoe.mirai.internal.AbstractBot.login(AbstractBot.kt:136)
+		at net.mamoe.mirai.internal.AbstractBot$login$1.invokeSuspend(AbstractBot.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+		... 4 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3510871411), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)]
+[0m[m
+[92m2022-08-15 15:58:06 I/Bot.3510871411: Bot cancelled: Bot closed[0m[m
+[31m2022-08-15 15:58:06 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3510871411), code=1, title=登录失败, message=帐号或密码错误，请重新输入。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3510871411), code=1, title=登录失败, message=帐号或密码错误，请重新输入。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:284)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: java.util.concurrent.CancellationException: Bot closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:112)
+		at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:84)
+		at net.mamoe.mirai.internal.AbstractBot.login(AbstractBot.kt:136)
+		at net.mamoe.mirai.internal.AbstractBot$login$1.invokeSuspend(AbstractBot.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+		... 4 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3510871411), code=1, title=登录失败, message=帐号或密码错误，请重新输入。, errorInfo=)]
+[0m[m
+[92m2022-08-15 15:58:35 I/Bot.3510871411: Login successful[0m[m
+[92m2022-08-15 15:58:35 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-08-15 15:58:35 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-08-15 15:58:36 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[92m2022-08-15 15:58:36 I/Bot.3510871411: Bot login successful.[0m[m
+[0m2022-08-15 15:58:46 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> [mirai:image:{497F98DE-EE74-B603-32CB-519FD1C360A7}.jpg, width=43, height=33, size=476, type=JPG, isEmoji=false][0m[m
+[0m2022-08-15 15:58:51 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 你是hx[0m[m
+[0m2022-08-15 15:59:41 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 你才是hx[0m[m
+[0m2022-08-15 15:59:42 V/Bot.3510871411: Group(799198588) <- 你们在济全体，才就可能上限值分，是王))%85福收完成绩全收610分地反向里不然后结构冲冲冲突然后看看到了一个题，hxdsps://t.cmlab的。[0m[m
+[0m2022-08-15 16:02:35 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 干出来个网址[0m[m
+[0m2022-08-15 16:03:21 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 干[0m[m
+[0m2022-08-15 16:03:21 V/Bot.3510871411: Group(799198588) <- 我干嘛吃了z怎么从宿舍很多学校园网站着大四部艾欧出去要是啊。[0m[m
+[0m2022-08-15 17:24:57 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 猪话 猪话[0m[m
+[0m2022-08-15 17:24:58 V/Bot.3510871411: Group(799198588) <- 这个群我说话都没人理我，还想着要猪说话，滚！[0m[m
+[0m2022-08-15 17:25:06 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> [吓][0m[m
+[0m2022-08-15 17:25:30 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 猪话 呜呜[0m[m
+[0m2022-08-15 17:25:30 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> [mirai:image:{497F98DE-EE74-B603-32CB-519FD1C360A7}.jpg, width=43, height=33, size=476, type=JPG, isEmoji=false][0m[m
+[0m2022-08-15 17:25:31 V/Bot.3510871411: Group(799198588) <- 呜呜呜看不懂的那偷偷回去玩好聪明的未来快，但联盟的视频通话。[0m[m
+[0m2022-08-15 17:26:48 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 偷偷回去玩[0m[m
+[0m2022-08-15 17:26:48 V/Bot.3510871411: Group(799198588) <- 我再偷偷玩，回去，玩的时没事情况啊@@¥已经验新，，te<l，，，，，		f。[0m[m
+[0m2022-08-15 17:39:35 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 话说生产实习有要求要写什么吗[0m[m
+[0m2022-08-15 17:39:45 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 比如我直接贴代码[0m[m
+[0m2022-08-15 17:40:02 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> @听过的人[0m[m
+[0m2022-08-15 17:40:21 V/Bot.3510871411: [这里只有逼hx(799198588)] 我右拳打开了天化身为-黄旋(578279246) -> 你在[0m[m
+[0m2022-08-15 17:40:30 V/Bot.3510871411: Event: GroupRecall(bot=Bot(3510871411), authorId=578279246, messageIds=[62779], messageInternalIds=[285503018], messageTime=1660556421, operator=NormalMember(578279246), group=Group(799198588), author=NormalMember(578279246))[0m[m
+[0m2022-08-15 17:40:40 V/Bot.3510871411: [这里只有逼hx(799198588)] 我右拳打开了天化身为-黄旋(578279246) -> 你在@空气[0m[m
+[0m2022-08-15 17:40:54 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> [mirai:at:307957662] 有人说你是空气[0m[m
+[0m2022-08-15 17:41:00 V/Bot.3510871411: Group(799198588) <- cs[0m[m
+[0m2022-08-15 17:41:06 V/Bot.3510871411: [这里只有逼hx(799198588)] 我右拳打开了天化身为-黄旋(578279246) -> cs[0m[m
+[0m2022-08-15 17:41:28 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> ？[0m[m
+[0m2022-08-15 17:41:48 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 我什么时候开发了这种功能了[0m[m
+[0m2022-08-15 17:42:01 V/Bot.3510871411: [这里只有逼hx(799198588)] 我右拳打开了天化身为-黄旋(578279246) -> 不是之前开发了吗[0m[m
+[0m2022-08-15 17:42:42 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 哦，我看成“xs”了[0m[m
+[0m2022-08-15 17:42:50 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 我是傻逼[0m[m
+[0m2022-08-15 17:42:50 V/Bot.3510871411: Group(799198588) <- 我才我和NUQQ体验新了，是啥，傻了？？，逼蜜雪这可我没得了对手感觉得智商场。[0m[m
+[0m2022-08-15 17:43:32 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 猪话 猪哥是傻逼[0m[m
+[0m2022-08-15 17:43:33 V/Bot.3510871411: Group(799198588) <- @流影电猪哥去，是类的图我房这个字，傻逼，逼软件的群聊什么说没吃什么专业选择题。[0m[m
+[0m2022-08-15 17:49:39 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 猪哥是傻逼[0m[m
+[0m2022-08-15 17:49:41 V/Bot.3510871411: Group(799198588) <- 猪哥举一个，是有点事，傻逼，逼我还能保安第四题写感觉的意思好难顶层）要enisn，给你们还是学出来你左右键字。[0m[m
+[0m2022-08-15 17:54:31 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 突然想起这玩意儿还在甜群里[0m[m
+[0m2022-08-15 20:26:11 V/Bot.3510871411: Event: BotOfflineEvent.Dropped(bot=Bot(3510871411), cause=NettyChannelException(message=null, cause=java.net.SocketException: Connection reset), reconnect=true)[0m[m
+[91m2022-08-15 20:26:11 W/Bot.3510871411: Connection lost, reconnecting... (NettyChannelException(message=null, cause=java.net.SocketException: Connection reset))[0m[m
+[92m2022-08-15 20:26:24 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-08-15 20:26:24 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-08-15 20:26:24 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[0m2022-08-15 20:26:24 V/Bot.3510871411: Event: BotReloginEvent(bot=Bot(3510871411), cause=null)[0m[m
+[92m2022-08-15 20:26:24 I/Bot.3510871411: Reconnected successfully in 12.767s.[0m[m
+[0m2022-08-15 20:43:57 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> [mirai:image:{10BFF019-80D8-0C20-1E91-ABE6373670C3}.gif, width=188, height=187, size=1382079, type=GIF, isEmoji=true][0m[m
+[0m2022-08-15 20:43:59 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> [mirai:image:{69FE5295-18E8-9321-9D8F-B3BB75839C0B}.gif, width=170, height=169, size=1131163, type=GIF, isEmoji=true][0m[m
+[0m2022-08-15 20:44:01 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> [吓][0m[m
+[0m2022-08-15 20:46:21 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> [mirai:image:{497F98DE-EE74-B603-32CB-519FD1C360A7}.jpg, width=43, height=33, size=476, type=JPG, isEmoji=false][0m[m
+[0m2022-08-15 20:46:26 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 抽出来的？[0m[m
+[0m2022-08-15 20:46:28 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 我也刷到了[0m[m
+[0m2022-08-15 20:46:42 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 我这网上看的[0m[m
+[0m2022-08-15 20:46:44 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 重点在[0m[m
+[0m2022-08-15 20:46:50 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 马上车了[0m[m
+[0m2022-08-15 20:46:54 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 🐴和👧🏻模型弄反了[0m[m
+[0m2022-08-15 20:46:57 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 大乔在拉车[0m[m
+[0m2022-08-15 20:47:00 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 哦，这个啊[0m[m
+[0m2022-08-15 20:47:00 V/Bot.3510871411: Group(799198588) <- xs[0m[m
+[0m2022-08-15 20:47:02 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 确实[0m[m
+[0m2022-08-15 20:47:03 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> [mirai:image:{5AF15AE4-D05D-84D0-701E-B286899BEDB3}.jpg, width=63, height=66, size=1852, type=JPG, isEmoji=true][0m[m
+[0m2022-08-15 20:47:10 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 很搞[0m[m
+[0m2022-08-15 20:47:21 V/Bot.3510871411: [这里只有逼hx(799198588)] 我右拳打开了天化身为-黄旋(578279246) -> 第二张图逆天[0m[m
+[0m2022-08-15 20:47:41 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 看的我都想上号了[0m[m
+[0m2022-08-15 20:48:41 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 现版本你的张飞还是屹立不倒[0m[m
+[0m2022-08-15 20:48:48 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> NB[0m[m
+[0m2022-08-15 20:49:01 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 专精装没啥变化吗[0m[m
+[0m2022-08-15 20:49:02 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 虽然已经削过了[0m[m
+[0m2022-08-15 20:49:02 V/Bot.3510871411: Group(799198588) <- xs[0m[m
+[0m2022-08-15 20:49:18 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 我记得减伤下调了[0m[m
+[0m2022-08-15 20:49:27 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 可恶啊[0m[m
+[0m2022-08-15 20:49:27 V/Bot.3510871411: Group(799198588) <- xs[0m[m
+[0m2022-08-15 20:49:37 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 猪话 xs[0m[m
+[0m2022-08-15 20:49:38 V/Bot.3510871411: Group(799198588) <- hxs经典问题，Taswl花甲粉鹅？哦操还是京东gbb，20001256\xFF\x047ack,llog.cork.https://kfc。[0m[m
+[0m2022-08-15 20:53:12 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> https kfc[0m[m
+[0m2022-08-15 20:53:59 V/Bot.3510871411: [这里只有逼hx(799198588)] 我右拳打开了天化身为-黄旋(578279246) -> 汉堡桶[0m[m
+[0m2022-08-15 20:54:00 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 卖花甲粉鹅吗[0m[m
+[0m2022-08-15 20:54:00 V/Bot.3510871411: Group(799198588) <- xs[0m[m
+[0m2022-08-15 20:54:20 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 笑个锤子[0m[m
+[0m2022-08-15 20:54:32 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> 猪猪不理你[0m[m
+[0m2022-08-15 20:54:35 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 哦，他崩了[0m[m
+[0m2022-08-15 20:54:37 V/Bot.3510871411: [这里只有逼hx(799198588)] 课代表-黄旋(307957662) -> [吓][0m[m
+[0m2022-08-15 20:55:02 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 我把你日烂了[0m[m
+[0m2022-08-15 20:55:03 V/Bot.3510871411: Group(799198588) <- 我就是句话说，把桌上，你说一季就寻思是做出来吗，日烂，了加乱七楼上来的手机玩。[0m[m
+[0m2022-08-15 20:57:00 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> 猪话 我是hx，我最爱td[0m[m
+[0m2022-08-15 20:57:00 V/Bot.3510871411: Group(799198588) <- 我会拉，是很多合一奈，hx应该去吧，，，，我用手机，最后叫声优秀干啥是放着封装个地的网烂了，爱你们的隐藏起去了吧，tdxg。[0m[m
+[0m2022-08-15 20:57:25 V/Bot.3510871411: [这里只有逼hx(799198588)] 舍友-黄旋(445850071) -> tdxg[0m[m
+[0m2022-08-15 20:57:59 V/Bot.3510871411: [一个万能的甜甜群(227529519)] 麦乐鸡块（油炸中(1603822152) -> [mirai:image:{7AD18D99-67B2-988F-966B-0E2C2E79CA2A}.jpg, width=1078, height=1332, size=160703, type=JPG, isEmoji=false][0m[m
+[0m2022-08-15 20:58:09 V/Bot.3510871411: [一个万能的甜甜群(227529519)] 麦乐鸡块（油炸中(1603822152) -> 我为什么刷到这个我[0m[m
+[0m2022-08-15 20:58:12 V/Bot.3510871411: Event: GroupRecall(bot=Bot(3510871411), authorId=1603822152, messageIds=[321920], messageInternalIds=[299488816], messageTime=1660568289, operator=NormalMember(1603822152), group=Group(227529519), author=NormalMember(1603822152))[0m[m
+[0m2022-08-15 20:58:14 V/Bot.3510871411: [一个万能的甜甜群(227529519)] 麦乐鸡块（油炸中(1603822152) -> 我为什么刷到这个[0m[m
+[0m2022-08-15 21:00:12 V/Bot.3510871411: [一个万能的甜甜群(227529519)]  (445850071) -> b站下午甚至上了视频[0m[m
+[0m2022-08-15 21:00:25 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 笑个锤子[0m[m
+[0m2022-08-15 21:00:26 V/Bot.3510871411: Group(799198588) <- 笑个个锤子子子子子子子子子子子子子子子子子子子子子子子子子子子子子子子子。[0m[m
+[0m2022-08-15 21:00:48 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 我把你改烂了[0m[m
+[0m2022-08-15 21:00:49 V/Bot.3510871411: Group(799198588) <- 我们问题，把握在洗澡，你是，改烂，了你为我能给d);埃德法是满打完的			s。[0m[m
+[0m2022-08-15 21:01:24 V/Bot.3510871411: [这里只有逼hx(799198588)] 我右拳打开了天化身为-黄旋(578279246) -> 滋滋滋滋滋滋滋滋滋滋渍渍渍筹资滋滋滋滋滋滋滋滋滋滋滋滋[0m[m
+[0m2022-08-15 21:01:38 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪话 筹资滋[0m[m
+[0m2022-08-15 21:01:39 V/Bot.3510871411: Group(799198588) <- 我甚至少个小程的名字节课讲公众筹资滋滋滋滋滋滋滋滋，滋滋滋滋滋滋渍渍渍？？？？下这里的要去这个权低一个是的假还差什么能。[0m[m
+[0m2022-08-15 21:02:13 V/Bot.3510871411: [一个万能的甜甜群(227529519)] 65472(1181682664) -> 看看视频[0m[m
+[0m2022-08-15 21:02:51 V/Bot.3510871411: [一个万能的甜甜群(227529519)]  (445850071) -> ？[0m[m
+[0m2022-08-15 21:03:16 V/Bot.3510871411: [一个万能的甜甜群(227529519)] 我收获了玉玉症(578279246) -> hx：就好这口[0m[m
+[0m2022-08-15 21:03:30 V/Bot.3510871411: [一个万能的甜甜群(227529519)]  (445850071) -> 已经被和谐了[0m[m
+[0m2022-08-15 21:03:33 V/Bot.3510871411: [一个万能的甜甜群(227529519)]  (445850071) -> 😭[0m[m
+[0m2022-08-15 21:03:48 V/Bot.3510871411: [一个万能的甜甜群(227529519)] 65472(1181682664) -> ww[0m[m
+[0m2022-08-15 21:03:52 V/Bot.3510871411: [一个万能的甜甜群(227529519)]  (445850071) -> 现在只有有🐴版[0m[m
+[0m2022-08-15 21:04:25 V/Bot.3510871411: [一个万能的甜甜群(227529519)] （@¥@）(845161327) -> 好糊啊[0m[m
+[0m2022-08-15 21:04:25 V/Bot.3510871411: Group(227529519) <- xs[0m[m
+[0m2022-08-15 21:04:33 V/Bot.3510871411: [一个万能的甜甜群(227529519)] 我收获了玉玉症(578279246) -> 好糊啊[0m[m
+[0m2022-08-15 21:04:34 V/Bot.3510871411: Group(227529519) <- xs[0m[m
+[0m2022-08-15 21:05:38 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪bot要跟你们说晚安了[0m[m
+[0m2022-08-15 21:05:48 V/Bot.3510871411: [这里只有逼hx(799198588)] 隔壁-黄旋(845161327) -> 猪bot要跟你们说晚安了啊[0m[m
+[0m2022-08-15 21:05:48 V/Bot.3510871411: Group(799198588) <- xs[0m[m
+[0m2022-08-15 21:05:56 V/Bot.3510871411: [这里只有逼hx(799198588)] 普通-黄旋(1181682664) -> xs[0m[m
