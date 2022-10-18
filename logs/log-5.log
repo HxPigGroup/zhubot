@@ -1,0 +1,276 @@
+[92m2022-07-07 09:08:58 I/main: Starting mirai-console...[0m[m
+[92m2022-07-07 09:08:58 I/main: Backend: version 2.12.0, built on 2022-07-03 10:57:58.[0m[m
+[92m2022-07-07 09:08:58 I/main: Frontend Terminal: version 2.12.0, provided by Mamoe Technologies[0m[m
+[92m2022-07-07 09:08:58 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-07-07 09:08:58 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-07-07 09:08:58 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-07-07 09:08:58 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-07-07 09:08:59 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.5.2[0m[m
+[92m2022-07-07 09:08:59 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-07-07 09:08:59 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-07-07 09:09:00 I/Mirai HTTP API: ********************************************************[0m[m
+[91m2022-07-07 09:09:00 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-07-07 09:09:00 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-07-07 09:09:00 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-07-07 09:09:00 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-07-07 09:09:00 I/Mirai HTTP API: Http api server is running with verifyKey: yirimirai[0m[m
+[92m2022-07-07 09:09:00 I/Mirai HTTP API: adaptors: [ws][0m[m
+[92m2022-07-07 09:09:00 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-07-07 09:09:00 I/MCL Addon: iTXTech MCL Version: 2.1.0-71ec418[0m[m
+[91m2022-07-07 09:09:00 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-07-07 09:09:00 I/main: 2 plugin(s) enabled.[0m[m
+[92m2022-07-07 09:09:00 I/main: mirai-console started successfully.[0m[m
+[92m2022-07-07 09:10:15 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-07-07 09:10:15 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-07-07 09:10:15 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-07-07 09:10:15 I/Bot.3510871411: Loaded account secrets from local cache.[0m[m
+[92m2022-07-07 09:10:16 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-07 09:10:16 I/Bot.3510871411: Login successful.[0m[m
+[31m2022-07-07 09:10:16 E/console: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于7-6 20:22在【JNY-AL10】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于7-6 20:22在【JNY-AL10】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:90)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:88)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:192)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: java.util.concurrent.CancellationException: NetworkHandler closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:596)
+		at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.close(NetworkHandlerSupport.kt:61)
+		at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:205)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+		... 25 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于7-6 20:22在【JNY-AL10】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。]
+	Suppressed: StateSwitchingException(old=StateLoading, new=StateClosed, cause=net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于7-6 20:22在【JNY-AL10】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:302)
+		at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.close(NettyNetworkHandler.kt:422)
+		at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:87)
+		... 25 more
+	Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.internal.network.impl.netty.ForceOfflineException: 你的QQ号于7-6 20:22在【JNY-AL10】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。]
+	Suppressed: [CIRCULAR REFERENCE: java.util.concurrent.CancellationException: NetworkHandler closed]
+[0m[m
+[92m2022-07-07 09:10:16 I/Bot.3510871411: Bot cancelled: Bot closed[0m[m
+[92m2022-07-07 09:11:04 I/Bot.3510871411: Login successful[0m[m
+[92m2022-07-07 09:11:04 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-07 09:11:04 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-07 09:11:05 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[92m2022-07-07 09:11:05 I/Bot.3510871411: Bot login successful.[0m[m
+[0m2022-07-07 09:11:51 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话 单人间[0m[m
+[0m2022-07-07 09:11:52 V/Bot.3510871411: Group(714702958) <- omm.Po_MAD，prv的单人间内部资料就只是初始剧情这个报错吗不会是本地文件而且已经。[0m[m
+[0m2022-07-07 09:12:04 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话 乱[0m[m
+[0m2022-07-07 09:12:05 V/Bot.3510871411: Group(714702958) <- 乱码？，d各的了xjdcrevp，，，鱼死这个有什么e<==1,&0关系之前看KQQQ体重点素。[0m[m
+[0m2022-07-07 11:22:56 V/Bot.3510871411: Event: BotOfflineEvent.Dropped(bot=Bot(3510871411), cause=NettyChannelException(message=null, cause=java.net.SocketException: Connection reset), reconnect=true)[0m[m
+[91m2022-07-07 11:22:56 W/Bot.3510871411: Connection lost, reconnecting... (NettyChannelException(message=null, cause=java.net.SocketException: Connection reset))[0m[m
+[31m2022-07-07 11:22:56 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.cancel(CancellableContinuationImpl.kt:183)
+	at kotlinx.coroutines.CancellableContinuationImpl.parentCancelled$kotlinx_coroutines_core(CancellableContinuationImpl.kt:190)
+	at kotlinx.coroutines.ChildContinuation.invoke(JobSupport.kt:1474)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.kt:900)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:863)
+	at kotlinx.coroutines.JobSupport.cancelMakeCompleting(JobSupport.kt:696)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:667)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:747)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.cancelInternal(JobSupport.kt:632)
+	at kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:617)
+	at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:549)
+	at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+	at kotlinx.coroutines.JobKt__JobKt.cancel$default(Job.kt:548)
+	at kotlinx.coroutines.JobKt.cancel$default(Unknown Source)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.server.cio.backend.ServerPipelineKt$startServerConnectionPipeline$1.invokeSuspend(ServerPipeline.kt:179)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-07-07 11:23:32 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-07 11:23:32 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-07 11:23:32 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[0m2022-07-07 11:23:32 V/Bot.3510871411: Event: BotReloginEvent(bot=Bot(3510871411), cause=null)[0m[m
+[31m2022-07-07 11:23:32 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.cancel(CancellableContinuationImpl.kt:183)
+	at kotlinx.coroutines.CancellableContinuationImpl.parentCancelled$kotlinx_coroutines_core(CancellableContinuationImpl.kt:190)
+	at kotlinx.coroutines.ChildContinuation.invoke(JobSupport.kt:1474)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.kt:900)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:863)
+	at kotlinx.coroutines.JobSupport.cancelMakeCompleting(JobSupport.kt:696)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:667)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:747)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.cancelInternal(JobSupport.kt:632)
+	at kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:617)
+	at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:549)
+	at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+	at kotlinx.coroutines.JobKt__JobKt.cancel$default(Job.kt:548)
+	at kotlinx.coroutines.JobKt.cancel$default(Unknown Source)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.server.cio.backend.ServerPipelineKt$startServerConnectionPipeline$1.invokeSuspend(ServerPipeline.kt:179)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-07-07 11:23:32 I/Bot.3510871411: Reconnected successfully in 35.885s.[0m[m
+[31m2022-07-07 11:23:32 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.cancel(CancellableContinuationImpl.kt:183)
+	at kotlinx.coroutines.CancellableContinuationImpl.parentCancelled$kotlinx_coroutines_core(CancellableContinuationImpl.kt:190)
+	at kotlinx.coroutines.ChildContinuation.invoke(JobSupport.kt:1474)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.kt:900)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:863)
+	at kotlinx.coroutines.JobSupport.cancelMakeCompleting(JobSupport.kt:696)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:667)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:747)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.parentCancelled(JobSupport.kt:637)
+	at kotlinx.coroutines.ChildHandleNode.invoke(JobSupport.kt:1465)
+	at kotlinx.coroutines.JobSupport.notifyCancelling(JobSupport.kt:1499)
+	at kotlinx.coroutines.JobSupport.tryMakeCancelling(JobSupport.kt:795)
+	at kotlinx.coroutines.JobSupport.makeCancelling(JobSupport.kt:755)
+	at kotlinx.coroutines.JobSupport.cancelImpl$kotlinx_coroutines_core(JobSupport.kt:671)
+	at kotlinx.coroutines.JobSupport.cancelInternal(JobSupport.kt:632)
+	at kotlinx.coroutines.JobSupport.cancel(JobSupport.kt:617)
+	at kotlinx.coroutines.JobKt__JobKt.cancel(Job.kt:549)
+	at kotlinx.coroutines.JobKt.cancel(Unknown Source)
+	at kotlinx.coroutines.JobKt__JobKt.cancel$default(Job.kt:548)
+	at kotlinx.coroutines.JobKt.cancel$default(Unknown Source)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.server.cio.backend.ServerPipelineKt$startServerConnectionPipeline$1.invokeSuspend(ServerPipeline.kt:179)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-07-07 11:53:14 I/Bot.3510871411: Bot cancelled: Job was cancelled[0m[m

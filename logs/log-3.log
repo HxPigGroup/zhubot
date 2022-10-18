@@ -1,0 +1,339 @@
+[92m2022-07-05 17:05:24 I/main: Starting mirai-console...[0m[m
+[92m2022-07-05 17:05:24 I/main: Backend: version 2.12.0, built on 2022-07-03 10:57:58.[0m[m
+[92m2022-07-05 17:05:24 I/main: Frontend Terminal: version 2.12.0, provided by Mamoe Technologies[0m[m
+[92m2022-07-05 17:05:24 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-07-05 17:05:24 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-07-05 17:05:24 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-07-05 17:05:24 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-07-05 17:05:25 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.5.2[0m[m
+[92m2022-07-05 17:05:25 I/plugin: Successfully loaded plugin MCL Addon v2.0.2[0m[m
+[92m2022-07-05 17:05:25 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-07-05 17:05:25 I/Mirai HTTP API: ********************************************************[0m[m
+[91m2022-07-05 17:05:25 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-07-05 17:05:25 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-07-05 17:05:25 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-07-05 17:05:25 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-07-05 17:05:25 I/Mirai HTTP API: Http api server is running with verifyKey: yirimirai[0m[m
+[92m2022-07-05 17:05:25 I/Mirai HTTP API: adaptors: [ws][0m[m
+[92m2022-07-05 17:05:25 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-07-05 17:05:25 I/MCL Addon: iTXTech MCL Version: 2.1.0-71ec418[0m[m
+[91m2022-07-05 17:05:25 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用[0m[m
+[92m2022-07-05 17:05:25 I/main: 2 plugin(s) enabled.[0m[m
+[92m2022-07-05 17:05:25 I/main: mirai-console started successfully.[0m[m
+[92m2022-07-05 17:06:26 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-07-05 17:06:26 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-07-05 17:06:26 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-07-05 17:13:34 I/Bot.3510871411: Bot cancelled: Bot closed[0m[m
+[31m2022-07-05 17:13:40 E/console: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:502)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:279)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[0m[m
+[92m2022-07-05 17:16:11 I/Bot.3510871411: Login successful[0m[m
+[92m2022-07-05 17:16:11 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-05 17:16:11 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-05 17:16:11 V/Bot.3510871411: Event: OtherClientOfflineEvent(client=OtherClient(bot=3510871411,deviceName=JNY-AL10,platform=MOBILE))[0m[m
+[0m2022-07-05 17:16:11 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[92m2022-07-05 17:16:11 I/Bot.3510871411: Bot login successful.[0m[m
+[91m2022-07-05 17:19:19 W/console: 未知指令: /ls, 输入 ? 获取帮助[0m[m
+[91m2022-07-05 17:19:30 W/console: 未知指令: /python test.py, 输入 ? 获取帮助[0m[m
+[0m2022-07-05 17:21:00 V/Bot.3510871411: Effort...Successful!(845161327) -> 你好[0m[m
+[0m2022-07-05 17:21:00 V/Bot.3510871411: Friend(845161327) <- Hello, World![0m[m
+[0m2022-07-05 17:26:17 V/Bot.3510871411: Event: BotJoinGroupEvent.Invite(invitor=NormalMember(845161327))[0m[m
+[0m2022-07-05 17:26:24 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> [mirai:at:3510871411] 你好[0m[m
+[0m2022-07-05 17:26:25 V/Bot.3510871411: Group(714702958) <- [mirai:at:845161327]你觉得hx是呆逼吗？[0m[m
+[0m2022-07-05 17:32:35 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 查询天气 武汉[0m[m
+[0m2022-07-05 17:32:35 V/Bot.3510871411: Group(714702958) <- 查询中……[0m[m
+[0m2022-07-05 17:32:36 V/Bot.3510871411: Group(714702958) <- 抱歉，没有找到武汉的天气数据。[0m[m
+[0m2022-07-05 17:32:47 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 查询天气 武汉东西湖[0m[m
+[0m2022-07-05 17:32:47 V/Bot.3510871411: Group(714702958) <- 查询中……[0m[m
+[0m2022-07-05 17:32:48 V/Bot.3510871411: Group(714702958) <- 抱歉，没有找到武汉东西湖的天气数据。[0m[m
+[0m2022-07-05 17:32:54 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 查询天气 湖北武汉[0m[m
+[0m2022-07-05 17:32:55 V/Bot.3510871411: Group(714702958) <- 查询中……[0m[m
+[0m2022-07-05 17:32:55 V/Bot.3510871411: Group(714702958) <- 抱歉，没有找到湖北武汉的天气数据。[0m[m
+[0m2022-07-05 17:41:01 V/Bot.3510871411: Group(714702958) <- 早安[0m[m
+[0m2022-07-05 20:49:02 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话 黄旋[0m[m
+[0m2022-07-05 20:49:03 V/Bot.3510871411: Group(714702958) <- 黄旋撤回车我洗个问问5500;图片嗯，不到信安静待约滑图片。[0m[m
+[0m2022-07-05 20:49:29 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 李朝阳天天说猪话[0m[m
+[0m2022-07-05 20:49:41 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话天天说李朝阳[0m[m
+[0m2022-07-05 20:50:24 V/Bot.3510871411: Event: BotOfflineEvent.Dropped(bot=Bot(3510871411), cause=HeartbeatFailedException: 3510871411.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3510871411.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[0m2022-07-05 20:53:03 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话陈龙飞[0m[m
+[0m2022-07-05 20:53:03 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话陈龙飞[0m[m
+[0m2022-07-05 20:53:03 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> [mirai:at:3510871411] [0m[m
+[91m2022-07-05 20:53:03 W/Bot.3510871411: Connection lost, reconnecting... (HeartbeatFailedException: 3510871411.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3510871411.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[31m2022-07-05 20:53:03 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[31m2022-07-05 20:53:03 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[31m2022-07-05 20:53:03 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[31m2022-07-05 20:53:03 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-07-05 20:53:03 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-05 20:53:03 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-05 20:53:03 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[0m2022-07-05 20:53:03 V/Bot.3510871411: Event: BotReloginEvent(bot=Bot(3510871411), cause=null)[0m[m
+[92m2022-07-05 20:53:03 I/Bot.3510871411: Reconnected successfully in 0.262s.[0m[m
+[31m2022-07-05 20:53:03 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[31m2022-07-05 20:53:03 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-07-05 20:53:08 I/Bot.3510871411: Loaded account secrets from local cache.[0m[m
+[92m2022-07-05 20:53:08 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-05 20:53:08 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-05 20:53:08 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[92m2022-07-05 20:53:08 I/Bot.3510871411: Bot login successful.[0m[m
+[0m2022-07-05 20:53:14 V/Bot.3510871411: Event: BotOfflineEvent.Dropped(bot=Bot(3510871411), cause=NettyChannelException(message=null, cause=null), reconnect=true)[0m[m
+[0m2022-07-05 20:53:28 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话陈龙飞[0m[m
+[0m2022-07-05 20:53:29 V/Bot.3510871411: Group(714702958) <- 陈龙飞有数定敲敲敲对照的3906290，为有点去，不是社会是错信了几点啊。[0m[m
+[31m2022-07-05 20:53:54 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-07-05 20:53:44 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话天天说李朝阳[0m[m
+[91m2022-07-05 20:53:54 W/Bot.3510871411: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[91m2022-07-05 20:53:54 W/Bot.3510871411: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[0m2022-07-05 20:53:54 V/Bot.3510871411: Group(714702958) <- 天天的历获取的吗，说正在只能连接ne，李朝阳请你这是z，朝阳=抓到同届不能不会有。[0m[m
+[92m2022-07-05 20:53:55 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-05 20:53:55 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-05 20:53:55 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[0m2022-07-05 20:53:55 V/Bot.3510871411: Event: BotReloginEvent(bot=Bot(3510871411), cause=null)[0m[m
+[92m2022-07-05 20:53:55 I/Bot.3510871411: Reconnected successfully in 1.227s.[0m[m
+[92m2022-07-05 20:53:55 I/Bot.3510871411: Reconnected successfully in 1.228s.[0m[m
+[31m2022-07-05 20:53:55 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[31m2022-07-05 20:53:55 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[0m2022-07-05 20:54:11 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪哥有点狂[0m[m
+[31m2022-07-05 20:54:11 E/Mah Debug: java.util.concurrent.CancellationException: ArrayChannel was cancelled
+java.util.concurrent.CancellationException: ArrayChannel was cancelled
+	at kotlinx.coroutines.channels.AbstractChannel.cancel(AbstractChannel.kt:656)
+	at kotlinx.coroutines.channels.ReceiveChannel$DefaultImpls.cancel$default(Channel.kt:279)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.DefaultWebSocketSessionImpl$runOutgoingProcessor$1.invokeSuspend(DefaultWebSocketSessionImpl.kt:182)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoop.processUnconfinedEvent(EventLoop.common.kt:69)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:245)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:161)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:397)
+	at kotlinx.coroutines.CancellableContinuationImpl.completeResume(CancellableContinuationImpl.kt:513)
+	at kotlinx.coroutines.channels.AbstractChannel$ReceiveHasNext.completeResumeReceive(AbstractChannel.kt:947)
+	at kotlinx.coroutines.channels.AbstractSendChannel.offerInternal(AbstractChannel.kt:56)
+	at kotlinx.coroutines.channels.AbstractSendChannel.send(AbstractChannel.kt:134)
+	at mirai-api-http-v2.5.2.mirai2.jar[shared]//io.ktor.http.cio.websocket.RawWebSocket$1.invokeSuspend(RawWebSocket.kt:56)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m[m
+[92m2022-07-05 20:56:11 I/Bot.3510871411: Loaded account secrets from local cache.[0m[m
+[92m2022-07-05 20:56:11 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-05 20:56:11 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-05 20:56:11 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[92m2022-07-05 20:56:11 I/Bot.3510871411: Bot login successful.[0m[m
+[0m2022-07-05 20:56:30 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话 猪哥有点狂[0m[m
+[0m2022-07-05 20:57:44 V/Bot.3510871411: Event: BotOfflineEvent.Dropped(bot=Bot(3510871411), cause=NettyChannelException(message=null, cause=null), reconnect=true)[0m[m
+[91m2022-07-05 20:57:44 W/Bot.3510871411: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[91m2022-07-05 20:57:44 W/Bot.3510871411: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[91m2022-07-05 20:57:44 W/Bot.3510871411: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[92m2022-07-05 20:57:44 I/Bot.3510871411: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-07-05 20:57:44 I/Bot.3510871411: Login successful.[0m[m
+[0m2022-07-05 20:57:44 V/Bot.3510871411: Event: BotOnlineEvent(bot=Bot(3510871411))[0m[m
+[0m2022-07-05 20:57:44 V/Bot.3510871411: Event: BotReloginEvent(bot=Bot(3510871411), cause=null)[0m[m
+[92m2022-07-05 20:57:44 I/Bot.3510871411: Reconnected successfully in 0.238s.[0m[m
+[92m2022-07-05 20:57:44 I/Bot.3510871411: Reconnected successfully in 0.238s.[0m[m
+[92m2022-07-05 20:57:44 I/Bot.3510871411: Reconnected successfully in 0.239s.[0m[m
+[0m2022-07-05 20:58:05 V/Bot.3510871411: [bot2、Effort...Successful!(714702958)] Effort...Successful!(845161327) -> 猪话 猪哥有点狂[0m[m
